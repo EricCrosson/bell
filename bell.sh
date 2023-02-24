@@ -51,7 +51,7 @@ done
 
 tput smcup # activate alternate screen
 tput civis # invisible cursor
-for i in $(seq 1 $times); do
+for _ in $(seq 1 "$times"); do
   echo -e '\a'
   sleep 0.15
 done
