@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Written by Eric Crosson
-# 04/10/2017
+# 2017-04-10
 #
 # Trigger the audial/visual bell $1 times.
 #
