@@ -19,7 +19,6 @@
     packages = forEachSystem (system: {
       default = nixpkgs.legacyPackages.${system}.writeShellApplication {
         name = "bell";
-        runtimeInputs = with nixpkgs.legacyPackages.${system}; [git patchutils];
         text = builtins.readFile ./bell.sh;
       };
     });
